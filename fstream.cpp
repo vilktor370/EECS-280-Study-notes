@@ -12,7 +12,7 @@ int main (){
         return 1;
     }
     string word;
-    while (fin >>word){
+    while (fin >>word){// while (getline(cin,word)) works as well
         cout<<"word = "<<word<<endl;
     }
     fin.close();
